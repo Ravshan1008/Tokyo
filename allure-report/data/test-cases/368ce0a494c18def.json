@@ -1,0 +1,99 @@
+{
+  "uid" : "368ce0a494c18def",
+  "name" : "testMain",
+  "fullName" : "com.clearskye.test.automation.tests.ClearSkyeNamingConventionTest.testMain",
+  "historyId" : "3203e4c8e66dcd4ca634eb0e5411af54",
+  "time" : {
+    "start" : 1654459716174,
+    "stop" : 1654459856033,
+    "duration" : 139859
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1654459715876,
+      "stop" : 1654459716172,
+      "duration" : 296
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1654459856034,
+      "stop" : 1654459856110,
+      "duration" : 76
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeNamingConventionTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeNamingConventionTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMain"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Running ClearSkye Naming Convention Creation Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeNamingConventionTest"
+  }, {
+    "name" : "host",
+    "value" : "QA-1"
+  }, {
+    "name" : "thread",
+    "value" : "3137125@QA-1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dataFileKey",
+    "value" : "input.data.tests"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "368ce0a494c18def.json",
+  "parameterValues" : [ "input.data.tests" ]
+}

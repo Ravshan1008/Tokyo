@@ -1,0 +1,99 @@
+{
+  "uid" : "8ab252f48bfd01ac",
+  "name" : "testMain",
+  "fullName" : "com.clearskye.test.automation.tests.ClearSkyeDeleteRecordsTest.testMain",
+  "historyId" : "ce0d5156f9642165c1c92019b03d79b3",
+  "time" : {
+    "start" : 1654460084229,
+    "stop" : 1654460690340,
+    "duration" : 606111
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1654460083918,
+      "stop" : 1654460084227,
+      "duration" : 309
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1654460690343,
+      "stop" : 1654460690665,
+      "duration" : 322
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeDeleteRecordsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeDeleteRecordsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMain"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Running ClearSkye Delete Records Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeDeleteRecordsTest"
+  }, {
+    "name" : "host",
+    "value" : "QA-1"
+  }, {
+    "name" : "thread",
+    "value" : "3137125@QA-1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dataFileKey",
+    "value" : "input.data.tests"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ab252f48bfd01ac.json",
+  "parameterValues" : [ "input.data.tests" ]
+}

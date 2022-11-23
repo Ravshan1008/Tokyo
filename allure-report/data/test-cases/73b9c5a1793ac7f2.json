@@ -1,0 +1,506 @@
+{
+  "uid" : "73b9c5a1793ac7f2",
+  "name" : "testMain",
+  "fullName" : "com.clearskye.test.automation.tests.ClearSkyeEntitlementConfigurationsTest.testMain",
+  "historyId" : "d4646c688bce7998d53cd2be94b575a",
+  "time" : {
+    "start" : 1656413894724,
+    "stop" : 1656414121849,
+    "duration" : 227125
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 25,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1656413894451,
+      "stop" : 1656413894722,
+      "duration" : 271
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1656414121850,
+      "stop" : 1656414121884,
+      "duration" : 34
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeEntitlementConfigurationsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeEntitlementConfigurationsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMain"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Running ClearSkye Entitlement Configurations Creation Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeEntitlementConfigurationsTest"
+  }, {
+    "name" : "host",
+    "value" : "QA-1"
+  }, {
+    "name" : "thread",
+    "value" : "3736906@QA-1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dataFileKey",
+    "value" : "input.data.tests"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4db3f4485b1aa56c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656327497232,
+        "stop" : 1656327723308,
+        "duration" : 226076
+      }
+    }, {
+      "uid" : "ca7a5fdb6f2febfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656241091037,
+        "stop" : 1656241317725,
+        "duration" : 226688
+      }
+    }, {
+      "uid" : "5eee6b916f1713e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656154694619,
+        "stop" : 1656154921507,
+        "duration" : 226888
+      }
+    }, {
+      "uid" : "ef6857b7060c98cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656068295695,
+        "stop" : 1656068523383,
+        "duration" : 227688
+      }
+    }, {
+      "uid" : "2ce3d69f6dfad685",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655981889712,
+        "stop" : 1655982115375,
+        "duration" : 225663
+      }
+    }, {
+      "uid" : "60e31b8748d8dabb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655895489814,
+        "stop" : 1655895716545,
+        "duration" : 226731
+      }
+    }, {
+      "uid" : "d0de88e68cc7c894",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655809094920,
+        "stop" : 1655809321908,
+        "duration" : 226988
+      }
+    }, {
+      "uid" : "341c034fb5a7503e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655745968785,
+        "stop" : 1655746196540,
+        "duration" : 227755
+      }
+    }, {
+      "uid" : "b907fbb1eaabde52",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.I7GcbT}, goog:chromeOptions: {debuggerAddress: localhost:39113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 49af1a9ba6c42b80b593b5466a173ce6\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+      "time" : {
+        "start" : 1655719742150,
+        "stop" : 1655719798110,
+        "duration" : 55960
+      }
+    }, {
+      "uid" : "d7bbfce383f150bf",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.kijrwK}, goog:chromeOptions: {debuggerAddress: localhost:39861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c76eaa358a01b7888ce983ee1b1ca775\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+      "time" : {
+        "start" : 1655633343456,
+        "stop" : 1655633399110,
+        "duration" : 55654
+      }
+    }, {
+      "uid" : "9d1a279b63c92cd1",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.8VUibA}, goog:chromeOptions: {debuggerAddress: localhost:37011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e7d197c3fc8e312114217c6d393246ac\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+      "time" : {
+        "start" : 1655546944286,
+        "stop" : 1655546999805,
+        "duration" : 55519
+      }
+    }, {
+      "uid" : "fa5df1fa4ce333c2",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.bWdQDr}, goog:chromeOptions: {debuggerAddress: localhost:36367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 54215aa596165f425f7362765fce58da\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+      "time" : {
+        "start" : 1655460548633,
+        "stop" : 1655460604106,
+        "duration" : 55473
+      }
+    }, {
+      "uid" : "c763c1549dad1417",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.12FLfF}, goog:chromeOptions: {debuggerAddress: localhost:45223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0ba9a642b777655acc5ab50723bb7114\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+      "time" : {
+        "start" : 1655374150711,
+        "stop" : 1655374206022,
+        "duration" : 55311
+      }
+    }, {
+      "uid" : "bc3180863bf37004",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.6jaqfU}, goog:chromeOptions: {debuggerAddress: localhost:35933}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: db500f49876768c2ea81e23b535d0b4f\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+      "time" : {
+        "start" : 1655287755742,
+        "stop" : 1655287811411,
+        "duration" : 55669
+      }
+    }, {
+      "uid" : "25a7d3f4486512aa",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.8bfBek}, goog:chromeOptions: {debuggerAddress: localhost:34729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d67384f81d290aaa87d585c25290e5c7\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+      "time" : {
+        "start" : 1655201359794,
+        "stop" : 1655201415565,
+        "duration" : 55771
+      }
+    }, {
+      "uid" : "f1b730202e13809e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655117895433,
+        "stop" : 1655118125083,
+        "duration" : 229650
+      }
+    }, {
+      "uid" : "b9f38a1cdadc99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655031503417,
+        "stop" : 1655031731924,
+        "duration" : 228507
+      }
+    }, {
+      "uid" : "a1b6749fa93a899c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654945124539,
+        "stop" : 1654945353540,
+        "duration" : 229001
+      }
+    }, {
+      "uid" : "1538ef6fae511338",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654858710174,
+        "stop" : 1654858937292,
+        "duration" : 227118
+      }
+    }, {
+      "uid" : "e6a0785ee922791a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654772315620,
+        "stop" : 1654772542824,
+        "duration" : 227204
+      }
+    }, {
+      "uid" : "db291f8ab03705e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654685934465,
+        "stop" : 1654686162580,
+        "duration" : 228115
+      }
+    }, {
+      "uid" : "56955485984ff47e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654599523547,
+        "stop" : 1654599761958,
+        "duration" : 238411
+      }
+    }, {
+      "uid" : "cf6dd7dbef29fbb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654513110224,
+        "stop" : 1654513336996,
+        "duration" : 226772
+      }
+    }, {
+      "uid" : "818a238930b26e63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654459856429,
+        "stop" : 1654460083889,
+        "duration" : 227460
+      }
+    }, {
+      "uid" : "4cfa97494ac0d321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654426714581,
+        "stop" : 1654426941148,
+        "duration" : 226567
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 7,
+        "skipped" : 0,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "7231c0c12abec1e6",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/188/allure/#testresult/7231c0c12abec1e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656327497232,
+          "stop" : 1656327723308,
+          "duration" : 226076
+        }
+      }, {
+        "uid" : "801c48c38d94eaec",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/187/allure/#testresult/801c48c38d94eaec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656241091037,
+          "stop" : 1656241317725,
+          "duration" : 226688
+        }
+      }, {
+        "uid" : "571eb8ddc0b2da50",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/186/allure/#testresult/571eb8ddc0b2da50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656154694619,
+          "stop" : 1656154921507,
+          "duration" : 226888
+        }
+      }, {
+        "uid" : "e1ab8c7e3c734098",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/185/allure/#testresult/e1ab8c7e3c734098",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656068295695,
+          "stop" : 1656068523383,
+          "duration" : 227688
+        }
+      }, {
+        "uid" : "8712bf4114324570",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/184/allure/#testresult/8712bf4114324570",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655981889712,
+          "stop" : 1655982115375,
+          "duration" : 225663
+        }
+      }, {
+        "uid" : "1c355321f2d33197",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/183/allure/#testresult/1c355321f2d33197",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655895489814,
+          "stop" : 1655895716545,
+          "duration" : 226731
+        }
+      }, {
+        "uid" : "5509c7740669d10d",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/182/allure/#testresult/5509c7740669d10d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655809094920,
+          "stop" : 1655809321908,
+          "duration" : 226988
+        }
+      }, {
+        "uid" : "92052cca46237ac1",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/181/allure/#testresult/92052cca46237ac1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655745968785,
+          "stop" : 1655746196540,
+          "duration" : 227755
+        }
+      }, {
+        "uid" : "6a6ddf352c6ee2c7",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/180/allure/#testresult/6a6ddf352c6ee2c7",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.I7GcbT}, goog:chromeOptions: {debuggerAddress: localhost:39113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 49af1a9ba6c42b80b593b5466a173ce6\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+        "time" : {
+          "start" : 1655719742150,
+          "stop" : 1655719798110,
+          "duration" : 55960
+        }
+      }, {
+        "uid" : "6e137a91099e3227",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/179/allure/#testresult/6e137a91099e3227",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.kijrwK}, goog:chromeOptions: {debuggerAddress: localhost:39861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c76eaa358a01b7888ce983ee1b1ca775\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+        "time" : {
+          "start" : 1655633343456,
+          "stop" : 1655633399110,
+          "duration" : 55654
+        }
+      }, {
+        "uid" : "d8b1ec924e643499",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/178/allure/#testresult/d8b1ec924e643499",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.8VUibA}, goog:chromeOptions: {debuggerAddress: localhost:37011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e7d197c3fc8e312114217c6d393246ac\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+        "time" : {
+          "start" : 1655546944286,
+          "stop" : 1655546999805,
+          "duration" : 55519
+        }
+      }, {
+        "uid" : "eae9d91fd13a0be4",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/177/allure/#testresult/eae9d91fd13a0be4",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.bWdQDr}, goog:chromeOptions: {debuggerAddress: localhost:36367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 54215aa596165f425f7362765fce58da\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+        "time" : {
+          "start" : 1655460548633,
+          "stop" : 1655460604106,
+          "duration" : 55473
+        }
+      }, {
+        "uid" : "38dabe26987229dc",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/176/allure/#testresult/38dabe26987229dc",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.12FLfF}, goog:chromeOptions: {debuggerAddress: localhost:45223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0ba9a642b777655acc5ab50723bb7114\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+        "time" : {
+          "start" : 1655374150711,
+          "stop" : 1655374206022,
+          "duration" : 55311
+        }
+      }, {
+        "uid" : "f13cb94b6dea5e45",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/175/allure/#testresult/f13cb94b6dea5e45",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.6jaqfU}, goog:chromeOptions: {debuggerAddress: localhost:35933}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: db500f49876768c2ea81e23b535d0b4f\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+        "time" : {
+          "start" : 1655287755742,
+          "stop" : 1655287811411,
+          "duration" : 55669
+        }
+      }, {
+        "uid" : "c9758f66c6a6971f",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/174/allure/#testresult/c9758f66c6a6971f",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Entitlement Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.8bfBek}, goog:chromeOptions: {debuggerAddress: localhost:34729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d67384f81d290aaa87d585c25290e5c7\n*** Element info: {Using=xpath, value=//span[text()='Entitlement Configurations']}",
+        "time" : {
+          "start" : 1655201359794,
+          "stop" : 1655201415565,
+          "duration" : 55771
+        }
+      }, {
+        "uid" : "21fa39be0a514af0",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/173/allure/#testresult/21fa39be0a514af0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655117895433,
+          "stop" : 1655118125083,
+          "duration" : 229650
+        }
+      }, {
+        "uid" : "120cca7597549c46",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/172/allure/#testresult/120cca7597549c46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655031503417,
+          "stop" : 1655031731924,
+          "duration" : 228507
+        }
+      }, {
+        "uid" : "c741c363d50b4ebd",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/171/allure/#testresult/c741c363d50b4ebd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654945124539,
+          "stop" : 1654945353540,
+          "duration" : 229001
+        }
+      }, {
+        "uid" : "32c121e55aa3cf46",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/170/allure/#testresult/32c121e55aa3cf46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654858710174,
+          "stop" : 1654858937292,
+          "duration" : 227118
+        }
+      }, {
+        "uid" : "79fca0996f1178a3",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/169/allure/#testresult/79fca0996f1178a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654772315620,
+          "stop" : 1654772542824,
+          "duration" : 227204
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "73b9c5a1793ac7f2.json",
+  "parameterValues" : [ "input.data.tests" ]
+}

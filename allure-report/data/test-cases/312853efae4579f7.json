@@ -1,0 +1,506 @@
+{
+  "uid" : "312853efae4579f7",
+  "name" : "testMain",
+  "fullName" : "com.clearskye.test.automation.tests.ClearSkyeAccountConfigurationsTest.testMain",
+  "historyId" : "730626580e9bc204ba9174e793825e8b",
+  "time" : {
+    "start" : 1656413364596,
+    "stop" : 1656413569760,
+    "duration" : 205164
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 25,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1656413364324,
+      "stop" : 1656413364595,
+      "duration" : 271
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1656413569761,
+      "stop" : 1656413569880,
+      "duration" : 119
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeAccountConfigurationsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeAccountConfigurationsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMain"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Running ClearSkye Account Configurations Creation Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeAccountConfigurationsTest"
+  }, {
+    "name" : "host",
+    "value" : "QA-1"
+  }, {
+    "name" : "thread",
+    "value" : "3736906@QA-1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dataFileKey",
+    "value" : "input.data.tests"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "460dd7f323201ca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656326968432,
+        "stop" : 1656327171814,
+        "duration" : 203382
+      }
+    }, {
+      "uid" : "aae16152a53365a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656240561481,
+        "stop" : 1656240765000,
+        "duration" : 203519
+      }
+    }, {
+      "uid" : "8e94ba5a959409a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656154164254,
+        "stop" : 1656154368281,
+        "duration" : 204027
+      }
+    }, {
+      "uid" : "a82c3d809fc68c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656067764471,
+        "stop" : 1656067969313,
+        "duration" : 204842
+      }
+    }, {
+      "uid" : "6c31583c8346a9f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655981361104,
+        "stop" : 1655981564484,
+        "duration" : 203380
+      }
+    }, {
+      "uid" : "ea780db9f9b8767a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655894961178,
+        "stop" : 1655895165588,
+        "duration" : 204410
+      }
+    }, {
+      "uid" : "6b7323af8a501c8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655808560974,
+        "stop" : 1655808766306,
+        "duration" : 205332
+      }
+    }, {
+      "uid" : "a21948aa33c05801",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655745436936,
+        "stop" : 1655745641890,
+        "duration" : 204954
+      }
+    }, {
+      "uid" : "98570104c8df3f47",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.HQqFQM}, goog:chromeOptions: {debuggerAddress: localhost:44939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 20a54c60d066912632158a92a71b4c38\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+      "time" : {
+        "start" : 1655719574150,
+        "stop" : 1655719629720,
+        "duration" : 55570
+      }
+    }, {
+      "uid" : "b83d77389333ddc7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.MOEfPU}, goog:chromeOptions: {debuggerAddress: localhost:39055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5917d545ae6ee1a9ceb6049dc7dfd7f1\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+      "time" : {
+        "start" : 1655633176084,
+        "stop" : 1655633231642,
+        "duration" : 55558
+      }
+    }, {
+      "uid" : "6b8d438b62fde7fc",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.LHiCUM}, goog:chromeOptions: {debuggerAddress: localhost:35345}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4b246eb81d84a54f05654b1e709d178d\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+      "time" : {
+        "start" : 1655546776396,
+        "stop" : 1655546831889,
+        "duration" : 55493
+      }
+    }, {
+      "uid" : "e32bd58d79de28c8",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.xgRbGH}, goog:chromeOptions: {debuggerAddress: localhost:45435}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 34b0542276404d7e6bb7448cd1ef9077\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+      "time" : {
+        "start" : 1655460379489,
+        "stop" : 1655460435288,
+        "duration" : 55799
+      }
+    }, {
+      "uid" : "d8b2a50c38cdfe7a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.z4bRsj}, goog:chromeOptions: {debuggerAddress: localhost:33721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4980e2766bfc8afb258effc30700a6b9\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+      "time" : {
+        "start" : 1655373982265,
+        "stop" : 1655374037810,
+        "duration" : 55545
+      }
+    }, {
+      "uid" : "8e762c73933abb4f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.yqb5wE}, goog:chromeOptions: {debuggerAddress: localhost:43295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 14c4643a75cdb185ba7ce68cab79f4a0\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+      "time" : {
+        "start" : 1655287586043,
+        "stop" : 1655287642503,
+        "duration" : 56460
+      }
+    }, {
+      "uid" : "e7288f6f5e4cdece",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.lVzFVQ}, goog:chromeOptions: {debuggerAddress: localhost:40995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6a68a415a6192218dab6484dc8de5ff3\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+      "time" : {
+        "start" : 1655201190566,
+        "stop" : 1655201246304,
+        "duration" : 55738
+      }
+    }, {
+      "uid" : "580d70ef4ffb189c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655117366468,
+        "stop" : 1655117570008,
+        "duration" : 203540
+      }
+    }, {
+      "uid" : "b19ca9a15d34a2ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655030973573,
+        "stop" : 1655031177895,
+        "duration" : 204322
+      }
+    }, {
+      "uid" : "9f8f8c676c54e473",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654944589319,
+        "stop" : 1654944797590,
+        "duration" : 208271
+      }
+    }, {
+      "uid" : "153664eaae3be73a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654858172638,
+        "stop" : 1654858381412,
+        "duration" : 208774
+      }
+    }, {
+      "uid" : "bb1202a5919daf87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654771781249,
+        "stop" : 1654771988424,
+        "duration" : 207175
+      }
+    }, {
+      "uid" : "588fb8b80a649900",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654685396209,
+        "stop" : 1654685605146,
+        "duration" : 208937
+      }
+    }, {
+      "uid" : "bcdcf58f2109dee8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654598988325,
+        "stop" : 1654599196878,
+        "duration" : 208553
+      }
+    }, {
+      "uid" : "255b0e699087b0a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654512580362,
+        "stop" : 1654512784818,
+        "duration" : 204456
+      }
+    }, {
+      "uid" : "3f2bd5a1a34bd425",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654459328975,
+        "stop" : 1654459532813,
+        "duration" : 203838
+      }
+    }, {
+      "uid" : "7b3f87a7319b7177",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654426180407,
+        "stop" : 1654426386744,
+        "duration" : 206337
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 7,
+        "skipped" : 0,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "8e01d3b65b51d4e9",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/188/allure/#testresult/8e01d3b65b51d4e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656326968432,
+          "stop" : 1656327171814,
+          "duration" : 203382
+        }
+      }, {
+        "uid" : "82cbba85f96bbea",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/187/allure/#testresult/82cbba85f96bbea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656240561481,
+          "stop" : 1656240765000,
+          "duration" : 203519
+        }
+      }, {
+        "uid" : "ba7d9a928caaf1d5",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/186/allure/#testresult/ba7d9a928caaf1d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656154164254,
+          "stop" : 1656154368281,
+          "duration" : 204027
+        }
+      }, {
+        "uid" : "dd8c13b09a0f8ab2",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/185/allure/#testresult/dd8c13b09a0f8ab2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656067764471,
+          "stop" : 1656067969313,
+          "duration" : 204842
+        }
+      }, {
+        "uid" : "aaefe0e23016db34",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/184/allure/#testresult/aaefe0e23016db34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655981361104,
+          "stop" : 1655981564484,
+          "duration" : 203380
+        }
+      }, {
+        "uid" : "aa65a2bf082a343",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/183/allure/#testresult/aa65a2bf082a343",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655894961178,
+          "stop" : 1655895165588,
+          "duration" : 204410
+        }
+      }, {
+        "uid" : "bd3937e55c87216b",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/182/allure/#testresult/bd3937e55c87216b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655808560974,
+          "stop" : 1655808766306,
+          "duration" : 205332
+        }
+      }, {
+        "uid" : "60a35f51f6e7f96f",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/181/allure/#testresult/60a35f51f6e7f96f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655745436936,
+          "stop" : 1655745641890,
+          "duration" : 204954
+        }
+      }, {
+        "uid" : "1556aeed88577144",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/180/allure/#testresult/1556aeed88577144",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.HQqFQM}, goog:chromeOptions: {debuggerAddress: localhost:44939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 20a54c60d066912632158a92a71b4c38\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+        "time" : {
+          "start" : 1655719574150,
+          "stop" : 1655719629720,
+          "duration" : 55570
+        }
+      }, {
+        "uid" : "5a924eaa06cc5d1e",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/179/allure/#testresult/5a924eaa06cc5d1e",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.MOEfPU}, goog:chromeOptions: {debuggerAddress: localhost:39055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5917d545ae6ee1a9ceb6049dc7dfd7f1\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+        "time" : {
+          "start" : 1655633176084,
+          "stop" : 1655633231642,
+          "duration" : 55558
+        }
+      }, {
+        "uid" : "13f6a4c8d810af82",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/178/allure/#testresult/13f6a4c8d810af82",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.LHiCUM}, goog:chromeOptions: {debuggerAddress: localhost:35345}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4b246eb81d84a54f05654b1e709d178d\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+        "time" : {
+          "start" : 1655546776396,
+          "stop" : 1655546831889,
+          "duration" : 55493
+        }
+      }, {
+        "uid" : "6f8fccf39111e2d0",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/177/allure/#testresult/6f8fccf39111e2d0",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.xgRbGH}, goog:chromeOptions: {debuggerAddress: localhost:45435}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 34b0542276404d7e6bb7448cd1ef9077\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+        "time" : {
+          "start" : 1655460379489,
+          "stop" : 1655460435288,
+          "duration" : 55799
+        }
+      }, {
+        "uid" : "572f304d2fff1c3",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/176/allure/#testresult/572f304d2fff1c3",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.z4bRsj}, goog:chromeOptions: {debuggerAddress: localhost:33721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4980e2766bfc8afb258effc30700a6b9\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+        "time" : {
+          "start" : 1655373982265,
+          "stop" : 1655374037810,
+          "duration" : 55545
+        }
+      }, {
+        "uid" : "5ee11ff7d380f6ae",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/175/allure/#testresult/5ee11ff7d380f6ae",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.yqb5wE}, goog:chromeOptions: {debuggerAddress: localhost:43295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 14c4643a75cdb185ba7ce68cab79f4a0\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+        "time" : {
+          "start" : 1655287586043,
+          "stop" : 1655287642503,
+          "duration" : 56460
+        }
+      }, {
+        "uid" : "c4ebf69154e37c7e",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/174/allure/#testresult/c4ebf69154e37c7e",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Account Configurations']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.lVzFVQ}, goog:chromeOptions: {debuggerAddress: localhost:40995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6a68a415a6192218dab6484dc8de5ff3\n*** Element info: {Using=xpath, value=//span[text()='Account Configurations']}",
+        "time" : {
+          "start" : 1655201190566,
+          "stop" : 1655201246304,
+          "duration" : 55738
+        }
+      }, {
+        "uid" : "d2367f77eef3d194",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/173/allure/#testresult/d2367f77eef3d194",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655117366468,
+          "stop" : 1655117570008,
+          "duration" : 203540
+        }
+      }, {
+        "uid" : "3d5a2c8a440a34cb",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/172/allure/#testresult/3d5a2c8a440a34cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655030973573,
+          "stop" : 1655031177895,
+          "duration" : 204322
+        }
+      }, {
+        "uid" : "e5b8ed331e31e163",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/171/allure/#testresult/e5b8ed331e31e163",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654944589319,
+          "stop" : 1654944797590,
+          "duration" : 208271
+        }
+      }, {
+        "uid" : "930dc89eb7055371",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/170/allure/#testresult/930dc89eb7055371",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654858172638,
+          "stop" : 1654858381412,
+          "duration" : 208774
+        }
+      }, {
+        "uid" : "ed6a96d124ccec97",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/169/allure/#testresult/ed6a96d124ccec97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654771781249,
+          "stop" : 1654771988424,
+          "duration" : 207175
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "312853efae4579f7.json",
+  "parameterValues" : [ "input.data.tests" ]
+}

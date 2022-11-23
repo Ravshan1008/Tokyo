@@ -1,0 +1,2 @@
+username,password,testName,skipTest,firstName,lastName,country,position,address,city,state,phoneNumber,zipCode,cardNumber,companyName,expirationMonth,expirationYear,cardCVV,address2,billingAddress,billingAddress2,billingZipCode
+mabltester,Password@1,test1,F,TestFirstName,TestLastName,US,ArchitectsAndEngineerCustomerGroup,123 Main Street,San Francisco,US-CA,4154151515,94111,4111,ClearSky,10,2023,123,Suite 100,234 Market Street,Suite 200,94112

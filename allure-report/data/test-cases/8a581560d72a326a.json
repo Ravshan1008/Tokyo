@@ -1,0 +1,506 @@
+{
+  "uid" : "8a581560d72a326a",
+  "name" : "testMain",
+  "fullName" : "com.clearskye.test.automation.tests.ClearSkyeNamingConventionTest.testMain",
+  "historyId" : "3203e4c8e66dcd4ca634eb0e5411af54",
+  "time" : {
+    "start" : 1656413752478,
+    "stop" : 1656413894419,
+    "duration" : 141941
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 25,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1656413752198,
+      "stop" : 1656413752476,
+      "duration" : 278
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1656413894420,
+      "stop" : 1656413894439,
+      "duration" : 19
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeNamingConventionTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeNamingConventionTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMain"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Running ClearSkye Naming Convention Creation Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.clearskye.test.automation.tests.ClearSkyeNamingConventionTest"
+  }, {
+    "name" : "host",
+    "value" : "QA-1"
+  }, {
+    "name" : "thread",
+    "value" : "3736906@QA-1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dataFileKey",
+    "value" : "input.data.tests"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9bf66098a179c6a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656327354520,
+        "stop" : 1656327496899,
+        "duration" : 142379
+      }
+    }, {
+      "uid" : "75dcec7b3ae75bd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656240949421,
+        "stop" : 1656241090698,
+        "duration" : 141277
+      }
+    }, {
+      "uid" : "b7f6ce82d9787bbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656154552038,
+        "stop" : 1656154694317,
+        "duration" : 142279
+      }
+    }, {
+      "uid" : "3f6af50fc56edf5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656068153255,
+        "stop" : 1656068295381,
+        "duration" : 142126
+      }
+    }, {
+      "uid" : "81c5775df74fef31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655981748685,
+        "stop" : 1655981889344,
+        "duration" : 140659
+      }
+    }, {
+      "uid" : "75e683e75d13b1e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655895348632,
+        "stop" : 1655895489419,
+        "duration" : 140787
+      }
+    }, {
+      "uid" : "bdc1e43173e80237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655808949103,
+        "stop" : 1655809094630,
+        "duration" : 145527
+      }
+    }, {
+      "uid" : "3c5fbd96b9f7eaee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655745825915,
+        "stop" : 1655745968483,
+        "duration" : 142568
+      }
+    }, {
+      "uid" : "d2059ab819d8ec89",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.6p8Opq}, goog:chromeOptions: {debuggerAddress: localhost:42573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 37c8e98b5a71d4a400647d1e6bfa9751\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+      "time" : {
+        "start" : 1655719686275,
+        "stop" : 1655719741790,
+        "duration" : 55515
+      }
+    }, {
+      "uid" : "a71330ce612d3826",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.1N6F4p}, goog:chromeOptions: {debuggerAddress: localhost:44889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 39843db946ffeb18a6e7b0984676f6b6\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+      "time" : {
+        "start" : 1655633287681,
+        "stop" : 1655633343021,
+        "duration" : 55340
+      }
+    }, {
+      "uid" : "666989f69735f53a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.UuZSqK}, goog:chromeOptions: {debuggerAddress: localhost:40501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ab3d26696acaa66fee68712794f329e9\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+      "time" : {
+        "start" : 1655546888144,
+        "stop" : 1655546943977,
+        "duration" : 55833
+      }
+    }, {
+      "uid" : "dc93502a18f48b8d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.N42uc6}, goog:chromeOptions: {debuggerAddress: localhost:40679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 13094899ca870704d04c74ac17fc07a1\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+      "time" : {
+        "start" : 1655460491991,
+        "stop" : 1655460548197,
+        "duration" : 56206
+      }
+    }, {
+      "uid" : "ca32de15816cdc78",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.zOdx2O}, goog:chromeOptions: {debuggerAddress: localhost:45637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 50a2d64ff561771ccbdbb5e17b0a436b\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+      "time" : {
+        "start" : 1655374094537,
+        "stop" : 1655374150265,
+        "duration" : 55728
+      }
+    }, {
+      "uid" : "ba8a3d06eba0258",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.avRnl4}, goog:chromeOptions: {debuggerAddress: localhost:43321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c03d3dd01f2f4ae4a3bc66bca913050b\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+      "time" : {
+        "start" : 1655287699535,
+        "stop" : 1655287755406,
+        "duration" : 55871
+      }
+    }, {
+      "uid" : "608bd99dd512f052",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.JYG86V}, goog:chromeOptions: {debuggerAddress: localhost:39515}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c5ed035c1087b7917560c0f88818f900\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+      "time" : {
+        "start" : 1655201302773,
+        "stop" : 1655201359051,
+        "duration" : 56278
+      }
+    }, {
+      "uid" : "b5d0c2bc38347b8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655117754030,
+        "stop" : 1655117895117,
+        "duration" : 141087
+      }
+    }, {
+      "uid" : "cb9d35cc45c653e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655031361665,
+        "stop" : 1655031503026,
+        "duration" : 141361
+      }
+    }, {
+      "uid" : "3d076669461300d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654944981972,
+        "stop" : 1654945124172,
+        "duration" : 142200
+      }
+    }, {
+      "uid" : "f789256a74fa33dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654858566401,
+        "stop" : 1654858709840,
+        "duration" : 143439
+      }
+    }, {
+      "uid" : "9fda5e852205ebea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654772171868,
+        "stop" : 1654772315309,
+        "duration" : 143441
+      }
+    }, {
+      "uid" : "57bd89bcf329eb21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654685789857,
+        "stop" : 1654685934144,
+        "duration" : 144287
+      }
+    }, {
+      "uid" : "be6a04a77996e9d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654599380999,
+        "stop" : 1654599523211,
+        "duration" : 142212
+      }
+    }, {
+      "uid" : "129ff67902fa721a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654512969369,
+        "stop" : 1654513109863,
+        "duration" : 140494
+      }
+    }, {
+      "uid" : "368ce0a494c18def",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654459716174,
+        "stop" : 1654459856033,
+        "duration" : 139859
+      }
+    }, {
+      "uid" : "e77718753750a3d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654426570951,
+        "stop" : 1654426714155,
+        "duration" : 143204
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 7,
+        "skipped" : 0,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "64069ea8a8ae6762",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/188/allure/#testresult/64069ea8a8ae6762",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656327354520,
+          "stop" : 1656327496899,
+          "duration" : 142379
+        }
+      }, {
+        "uid" : "3f2bc27964d819c1",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/187/allure/#testresult/3f2bc27964d819c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656240949421,
+          "stop" : 1656241090698,
+          "duration" : 141277
+        }
+      }, {
+        "uid" : "dc644b56b76eab15",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/186/allure/#testresult/dc644b56b76eab15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656154552038,
+          "stop" : 1656154694317,
+          "duration" : 142279
+        }
+      }, {
+        "uid" : "33ea52a4931ca299",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/185/allure/#testresult/33ea52a4931ca299",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656068153255,
+          "stop" : 1656068295381,
+          "duration" : 142126
+        }
+      }, {
+        "uid" : "a6895c505193f8be",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/184/allure/#testresult/a6895c505193f8be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655981748685,
+          "stop" : 1655981889344,
+          "duration" : 140659
+        }
+      }, {
+        "uid" : "4b5f8ef5d2bdd25e",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/183/allure/#testresult/4b5f8ef5d2bdd25e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655895348632,
+          "stop" : 1655895489419,
+          "duration" : 140787
+        }
+      }, {
+        "uid" : "fa7063dc68ec2a78",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/182/allure/#testresult/fa7063dc68ec2a78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655808949103,
+          "stop" : 1655809094630,
+          "duration" : 145527
+        }
+      }, {
+        "uid" : "12bcb4637d09f824",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/181/allure/#testresult/12bcb4637d09f824",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655745825915,
+          "stop" : 1655745968483,
+          "duration" : 142568
+        }
+      }, {
+        "uid" : "ae1a99af2ed7e058",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/180/allure/#testresult/ae1a99af2ed7e058",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.6p8Opq}, goog:chromeOptions: {debuggerAddress: localhost:42573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 37c8e98b5a71d4a400647d1e6bfa9751\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+        "time" : {
+          "start" : 1655719686275,
+          "stop" : 1655719741790,
+          "duration" : 55515
+        }
+      }, {
+        "uid" : "dbe940040af01545",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/179/allure/#testresult/dbe940040af01545",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.1N6F4p}, goog:chromeOptions: {debuggerAddress: localhost:44889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 39843db946ffeb18a6e7b0984676f6b6\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+        "time" : {
+          "start" : 1655633287681,
+          "stop" : 1655633343021,
+          "duration" : 55340
+        }
+      }, {
+        "uid" : "fe05603554d518b",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/178/allure/#testresult/fe05603554d518b",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.UuZSqK}, goog:chromeOptions: {debuggerAddress: localhost:40501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ab3d26696acaa66fee68712794f329e9\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+        "time" : {
+          "start" : 1655546888144,
+          "stop" : 1655546943977,
+          "duration" : 55833
+        }
+      }, {
+        "uid" : "3c09df9efed78807",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/177/allure/#testresult/3c09df9efed78807",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.N42uc6}, goog:chromeOptions: {debuggerAddress: localhost:40679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 13094899ca870704d04c74ac17fc07a1\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+        "time" : {
+          "start" : 1655460491991,
+          "stop" : 1655460548197,
+          "duration" : 56206
+        }
+      }, {
+        "uid" : "974eed014e7c0c51",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/176/allure/#testresult/974eed014e7c0c51",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.zOdx2O}, goog:chromeOptions: {debuggerAddress: localhost:45637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 50a2d64ff561771ccbdbb5e17b0a436b\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+        "time" : {
+          "start" : 1655374094537,
+          "stop" : 1655374150265,
+          "duration" : 55728
+        }
+      }, {
+        "uid" : "87ba3bbd02890348",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/175/allure/#testresult/87ba3bbd02890348",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.avRnl4}, goog:chromeOptions: {debuggerAddress: localhost:43321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c03d3dd01f2f4ae4a3bc66bca913050b\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+        "time" : {
+          "start" : 1655287699535,
+          "stop" : 1655287755406,
+          "duration" : 55871
+        }
+      }, {
+        "uid" : "7e7ddff61b451259",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/174/allure/#testresult/7e7ddff61b451259",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Naming Conventions']\"}\n  (Session info: headless chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'QA-1', ip: '10.2.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.JYG86V}, goog:chromeOptions: {debuggerAddress: localhost:39515}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c5ed035c1087b7917560c0f88818f900\n*** Element info: {Using=xpath, value=//span[text()='Naming Conventions']}",
+        "time" : {
+          "start" : 1655201302773,
+          "stop" : 1655201359051,
+          "duration" : 56278
+        }
+      }, {
+        "uid" : "4e35b5803a90dc96",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/173/allure/#testresult/4e35b5803a90dc96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655117754030,
+          "stop" : 1655117895117,
+          "duration" : 141087
+        }
+      }, {
+        "uid" : "45e1d62fbbbc84a4",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/172/allure/#testresult/45e1d62fbbbc84a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655031361665,
+          "stop" : 1655031503026,
+          "duration" : 141361
+        }
+      }, {
+        "uid" : "64503342483ec31c",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/171/allure/#testresult/64503342483ec31c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654944981972,
+          "stop" : 1654945124172,
+          "duration" : 142200
+        }
+      }, {
+        "uid" : "e6000b79ec138c89",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/170/allure/#testresult/e6000b79ec138c89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654858566401,
+          "stop" : 1654858709840,
+          "duration" : 143439
+        }
+      }, {
+        "uid" : "ffa284ab1a623e20",
+        "reportUrl" : "http://localhost:8080/job/CLRSK/169/allure/#testresult/ffa284ab1a623e20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654772171868,
+          "stop" : 1654772315309,
+          "duration" : 143441
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8a581560d72a326a.json",
+  "parameterValues" : [ "input.data.tests" ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--  Added by Tim 09/19/21 -->
+<suite name="Suite" parallel="false">
+	<test name="Running ClearSkye Review Templates Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeReviewTemplatesTest"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,450 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.clearskye.test.automation.tests",
+    "children" : [ {
+      "name" : "ClearSkyeNewProfileTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "e33414cfb5550428",
+        "parentUid" : "706a44d01b66d081a43a494ec14f9707",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656409872427,
+          "stop" : 1656410278828,
+          "duration" : 406401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "706a44d01b66d081a43a494ec14f9707"
+    }, {
+      "name" : "ClearSkyeNewIdentityTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "5a14fb90af5454ff",
+        "parentUid" : "e38381fb25ac85214d8cb1d4eb3d0b2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656410279286,
+          "stop" : 1656410472585,
+          "duration" : 193299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "e38381fb25ac85214d8cb1d4eb3d0b2f"
+    }, {
+      "name" : "ClearSkyeApprovalsTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "521d408961b40243",
+        "parentUid" : "aa14401f92720729a0dc12c27d63d086",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656410472920,
+          "stop" : 1656410615265,
+          "duration" : 142345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "aa14401f92720729a0dc12c27d63d086"
+    }, {
+      "name" : "ClearSkyeNewAccountTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "44b9a40b7db7224d",
+        "parentUid" : "b3dfc09f347ad979f00a98e111d5ef5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656410615627,
+          "stop" : 1656410760573,
+          "duration" : 144946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "b3dfc09f347ad979f00a98e111d5ef5d"
+    }, {
+      "name" : "ClearSkyeChangeIdentityTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "4e6cda8ed6eed7ee",
+        "parentUid" : "cf54840613fd6b8d39d483ad282d9ee8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656410760918,
+          "stop" : 1656410995665,
+          "duration" : 234747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "cf54840613fd6b8d39d483ad282d9ee8"
+    }, {
+      "name" : "ClearSkyeNewEntitlementTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "14cf86f7ee2610cb",
+        "parentUid" : "33be87deeeeb05f3abc8699841bfacc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656410995994,
+          "stop" : 1656411191705,
+          "duration" : 195711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "33be87deeeeb05f3abc8699841bfacc1"
+    }, {
+      "name" : "ClearSkyeNewRoleTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "69c8abc47b6c4dad",
+        "parentUid" : "fce562640f9541411dc2022920ce27a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656411192092,
+          "stop" : 1656411486847,
+          "duration" : 294755
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "fce562640f9541411dc2022920ce27a8"
+    }, {
+      "name" : "ClearSkyeReviewTemplatesTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "1f7946b84229a500",
+        "parentUid" : "ac4040c3fe46d280ec8e4232b88568c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656411487169,
+          "stop" : 1656411806745,
+          "duration" : 319576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "ac4040c3fe46d280ec8e4232b88568c2"
+    }, {
+      "name" : "ClearSkyeReviewCampaignsTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "246ae54088426ca9",
+        "parentUid" : "d9ef8051a313fee07fb85c39e3d8f29d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656411807153,
+          "stop" : 1656411962647,
+          "duration" : 155494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "d9ef8051a313fee07fb85c39e3d8f29d"
+    }, {
+      "name" : "ClearSkyeAccessReviewsTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "baa15e808731fbb2",
+        "parentUid" : "dfceb68cf37bf9e36c2d030326fc4269",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656411963014,
+          "stop" : 1656412172691,
+          "duration" : 209677
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "dfceb68cf37bf9e36c2d030326fc4269"
+    }, {
+      "name" : "ClearSkyeGuidedSetupTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "cd4b77991ee3546a",
+        "parentUid" : "363c620bd0b2900570b7ecdf13d20004",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656412173012,
+          "stop" : 1656412296757,
+          "duration" : 123745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "363c620bd0b2900570b7ecdf13d20004"
+    }, {
+      "name" : "ClearSkyeAccessPoliciesTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "dd9fd32c4c345e6c",
+        "parentUid" : "7a431ea9f261b0eb3871ce3deca5850a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656412297072,
+          "stop" : 1656412435964,
+          "duration" : 138892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "7a431ea9f261b0eb3871ce3deca5850a"
+    }, {
+      "name" : "ClearSkyeRequestVariableSettingsTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "a59566e724a3157c",
+        "parentUid" : "2684e2dcdbd6f904f7e2e8f4f6d31684",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656412436332,
+          "stop" : 1656412601024,
+          "duration" : 164692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "2684e2dcdbd6f904f7e2e8f4f6d31684"
+    }, {
+      "name" : "ClearSkyeNewConnectorsTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "33f90047d0836c32",
+        "parentUid" : "4d45add4a5c521faf737341d668e3863",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656412601336,
+          "stop" : 1656412771704,
+          "duration" : 170368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "4d45add4a5c521faf737341d668e3863"
+    }, {
+      "name" : "ClearSkyeObjectCategoryTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "fe0cbb4f84760512",
+        "parentUid" : "a7412bb27f4583836f4c92adb3b593bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656412772023,
+          "stop" : 1656412957196,
+          "duration" : 185173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "a7412bb27f4583836f4c92adb3b593bc"
+    }, {
+      "name" : "ClearSkyeEnvironmentsTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "e20044599256f29f",
+        "parentUid" : "7122c7a096c2116b441a7ac69e5ca88a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656412957522,
+          "stop" : 1656413364285,
+          "duration" : 406763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "7122c7a096c2116b441a7ac69e5ca88a"
+    }, {
+      "name" : "ClearSkyeAccountConfigurationsTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "312853efae4579f7",
+        "parentUid" : "121b4945eb73f8f08923a2aea17f80d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656413364596,
+          "stop" : 1656413569760,
+          "duration" : 205164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "121b4945eb73f8f08923a2aea17f80d4"
+    }, {
+      "name" : "ClearSkyeAlertsTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "70227eed372a7427",
+        "parentUid" : "8b46d02e3b5c7d10a227d1fc1b6769d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656413570165,
+          "stop" : 1656413752164,
+          "duration" : 181999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "8b46d02e3b5c7d10a227d1fc1b6769d2"
+    }, {
+      "name" : "ClearSkyeNamingConventionTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "8a581560d72a326a",
+        "parentUid" : "f67a60bd55f66de9386cb415e647c175",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656413752478,
+          "stop" : 1656413894419,
+          "duration" : 141941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "f67a60bd55f66de9386cb415e647c175"
+    }, {
+      "name" : "ClearSkyeEntitlementConfigurationsTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "73b9c5a1793ac7f2",
+        "parentUid" : "7e9fb72c5ad911ebbbb39d1066adc789",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656413894724,
+          "stop" : 1656414121849,
+          "duration" : 227125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "7e9fb72c5ad911ebbbb39d1066adc789"
+    }, {
+      "name" : "ClearSkyeDeleteRecordsTest",
+      "children" : [ {
+        "name" : "testMain",
+        "uid" : "b375d8c3c80858c0",
+        "parentUid" : "e358e897d87fba368a08c96240f4c471",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656414122197,
+          "stop" : 1656414731512,
+          "duration" : 609315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 25,
+        "retriesStatusChange" : true,
+        "parameters" : [ "input.data.tests" ]
+      } ],
+      "uid" : "e358e897d87fba368a08c96240f4c471"
+    } ],
+    "uid" : "com.clearskye.test.automation.tests"
+  } ],
+  "name" : "packages"
+}

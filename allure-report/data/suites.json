@@ -1,0 +1,534 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Running ClearSkye Profile Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeNewProfileTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "e33414cfb5550428",
+          "parentUid" : "bc8571ae72dd970824ba8ee9f049b55c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656409872427,
+            "stop" : 1656410278828,
+            "duration" : 406401
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "bc8571ae72dd970824ba8ee9f049b55c"
+      } ],
+      "uid" : "a73db6c4a7ae69e19b8b01e0580f185a"
+    }, {
+      "name" : "Running ClearSkye Identity Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeNewIdentityTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "5a14fb90af5454ff",
+          "parentUid" : "beb4744a7316143a7c3225bbd23fabce",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656410279286,
+            "stop" : 1656410472585,
+            "duration" : 193299
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "beb4744a7316143a7c3225bbd23fabce"
+      } ],
+      "uid" : "f51ddcd260d070477008d0d6a7cc3e0e"
+    }, {
+      "name" : "Running ClearSkye Identity Approval Test",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeApprovalsTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "521d408961b40243",
+          "parentUid" : "ed10271f916972be82afef611989cf9e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656410472920,
+            "stop" : 1656410615265,
+            "duration" : 142345
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "ed10271f916972be82afef611989cf9e"
+      } ],
+      "uid" : "aa73b4f4e3331bd479f15ff1b161f004"
+    }, {
+      "name" : "Running ClearSkye Account Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeNewAccountTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "44b9a40b7db7224d",
+          "parentUid" : "a55c242e480cb35cf397e17f9802de92",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656410615627,
+            "stop" : 1656410760573,
+            "duration" : 144946
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "a55c242e480cb35cf397e17f9802de92"
+      } ],
+      "uid" : "60592efde90c7710c39646a2e5db2e22"
+    }, {
+      "name" : "Running ClearSkye Change an Identity Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeChangeIdentityTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "4e6cda8ed6eed7ee",
+          "parentUid" : "070d8b81c6a2ab5c9b7afdf88dfa7fac",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656410760918,
+            "stop" : 1656410995665,
+            "duration" : 234747
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "070d8b81c6a2ab5c9b7afdf88dfa7fac"
+      } ],
+      "uid" : "a237b98366c70eaf0a66c4620370c545"
+    }, {
+      "name" : "Running ClearSkye Entitlement Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeNewEntitlementTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "14cf86f7ee2610cb",
+          "parentUid" : "11b60de6a1e3ee9471931d04db80b934",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656410995994,
+            "stop" : 1656411191705,
+            "duration" : 195711
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "11b60de6a1e3ee9471931d04db80b934"
+      } ],
+      "uid" : "f4b2ea4c0eca51ea87a7fe31f83fa0a9"
+    }, {
+      "name" : "Running ClearSkye Create a Role Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeNewRoleTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "69c8abc47b6c4dad",
+          "parentUid" : "c4430138c05bb8ec715d2a839a65c412",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656411192092,
+            "stop" : 1656411486847,
+            "duration" : 294755
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "c4430138c05bb8ec715d2a839a65c412"
+      } ],
+      "uid" : "8fe1311e7a70f6a08644cde32e576f25"
+    }, {
+      "name" : "Running ClearSkye Review Templates Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeReviewTemplatesTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "1f7946b84229a500",
+          "parentUid" : "504b9de99cfbb33ba393cc843e137b65",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656411487169,
+            "stop" : 1656411806745,
+            "duration" : 319576
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "504b9de99cfbb33ba393cc843e137b65"
+      } ],
+      "uid" : "8a0497776b83d94434e5dc3f3f2fb098"
+    }, {
+      "name" : "Running ClearSkye Review Campaigns Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeReviewCampaignsTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "246ae54088426ca9",
+          "parentUid" : "947ddbb4465ce16663c5a825fa15f9c8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656411807153,
+            "stop" : 1656411962647,
+            "duration" : 155494
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "947ddbb4465ce16663c5a825fa15f9c8"
+      } ],
+      "uid" : "cfe4f830404f87ced2303426f261f2eb"
+    }, {
+      "name" : "Running ClearSkye Access Review Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeAccessReviewsTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "baa15e808731fbb2",
+          "parentUid" : "28c1ea85246dd9face0bef98f6fe598e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656411963014,
+            "stop" : 1656412172691,
+            "duration" : 209677
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "28c1ea85246dd9face0bef98f6fe598e"
+      } ],
+      "uid" : "aa12cde517f09c8ca70d8ad88b1ac305"
+    }, {
+      "name" : "Running ClearSkye Guided Setup Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeGuidedSetupTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "cd4b77991ee3546a",
+          "parentUid" : "fa04b592fba7ff5977c9df27cae971bd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656412173012,
+            "stop" : 1656412296757,
+            "duration" : 123745
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "fa04b592fba7ff5977c9df27cae971bd"
+      } ],
+      "uid" : "33a604b4d0d2cd72074824f2eba3474e"
+    }, {
+      "name" : "Running ClearSkye Access Policies Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeAccessPoliciesTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "dd9fd32c4c345e6c",
+          "parentUid" : "f237b180b5d510ab88975b83946e6951",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656412297072,
+            "stop" : 1656412435964,
+            "duration" : 138892
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "f237b180b5d510ab88975b83946e6951"
+      } ],
+      "uid" : "eab4c517b3dea9b813f821bc12c015ce"
+    }, {
+      "name" : "Running ClearSkye RVS Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeRequestVariableSettingsTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "a59566e724a3157c",
+          "parentUid" : "0a0d8b0770890d81f9097020c460ef77",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656412436332,
+            "stop" : 1656412601024,
+            "duration" : 164692
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "0a0d8b0770890d81f9097020c460ef77"
+      } ],
+      "uid" : "f3c650c82776adfe82488b07a34438a2"
+    }, {
+      "name" : "Running ClearSkye Connector Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeNewConnectorsTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "33f90047d0836c32",
+          "parentUid" : "596b0b22010e982f977e8f8fab8af841",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656412601336,
+            "stop" : 1656412771704,
+            "duration" : 170368
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "596b0b22010e982f977e8f8fab8af841"
+      } ],
+      "uid" : "eb535748e9e58641469e62bd77f14440"
+    }, {
+      "name" : "Running ClearSkye Object Category Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeObjectCategoryTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "fe0cbb4f84760512",
+          "parentUid" : "31a8eec1073cf82bf2ac41973c2d547f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656412772023,
+            "stop" : 1656412957196,
+            "duration" : 185173
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "31a8eec1073cf82bf2ac41973c2d547f"
+      } ],
+      "uid" : "79517354af9f9f5bfec96f204a2c43cb"
+    }, {
+      "name" : "Running ClearSkye Environment Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeEnvironmentsTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "e20044599256f29f",
+          "parentUid" : "cf260401631b53e874ec1728d49e0ec4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656412957522,
+            "stop" : 1656413364285,
+            "duration" : 406763
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "cf260401631b53e874ec1728d49e0ec4"
+      } ],
+      "uid" : "f735566feb5ea12f2802d0a34f3027c7"
+    }, {
+      "name" : "Running ClearSkye Account Configurations Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeAccountConfigurationsTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "312853efae4579f7",
+          "parentUid" : "022f92289ad4c5883391a4f412120ac3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656413364596,
+            "stop" : 1656413569760,
+            "duration" : 205164
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "022f92289ad4c5883391a4f412120ac3"
+      } ],
+      "uid" : "00bd4c392cacd2fef032801321105129"
+    }, {
+      "name" : "Running ClearSkye Alert Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeAlertsTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "70227eed372a7427",
+          "parentUid" : "4c0ba6941b6b78bdb343efcdccd14635",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656413570165,
+            "stop" : 1656413752164,
+            "duration" : 181999
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "4c0ba6941b6b78bdb343efcdccd14635"
+      } ],
+      "uid" : "c5c24eba625b56e1e4184ae58898fd32"
+    }, {
+      "name" : "Running ClearSkye Naming Convention Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeNamingConventionTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "8a581560d72a326a",
+          "parentUid" : "d858132d931b56e84772ba7b05e18e52",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656413752478,
+            "stop" : 1656413894419,
+            "duration" : 141941
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "d858132d931b56e84772ba7b05e18e52"
+      } ],
+      "uid" : "19e15daf8a463ac931b28da79d12ed50"
+    }, {
+      "name" : "Running ClearSkye Entitlement Configurations Creation Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeEntitlementConfigurationsTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "73b9c5a1793ac7f2",
+          "parentUid" : "2c16db9acb89ce829af3af09db84ecaa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656413894724,
+            "stop" : 1656414121849,
+            "duration" : 227125
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "2c16db9acb89ce829af3af09db84ecaa"
+      } ],
+      "uid" : "097a22ef9573d957c94183011c524f16"
+    }, {
+      "name" : "Running ClearSkye Delete Records Tests",
+      "children" : [ {
+        "name" : "com.clearskye.test.automation.tests.ClearSkyeDeleteRecordsTest",
+        "children" : [ {
+          "name" : "testMain",
+          "uid" : "b375d8c3c80858c0",
+          "parentUid" : "a4c19dae11c0ed1e93ec1e9790de3bd4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656414122197,
+            "stop" : 1656414731512,
+            "duration" : 609315
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ "input.data.tests" ]
+        } ],
+        "uid" : "a4c19dae11c0ed1e93ec1e9790de3bd4"
+      } ],
+      "uid" : "faf586f35d84ad818fc7ba977e46d4b4"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ],
+  "name" : "suites"
+}

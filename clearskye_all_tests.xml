@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--  Added by Tim 09/19/21 -->
+<suite name="Suite" parallel="false">
+	<test name="Running ClearSkye Environment Load Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeEnvironmentLoadTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Profile Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeNewProfileTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Identity Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeNewIdentityTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Account Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeNewAccountTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Change an Identity Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeChangeIdentityTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Entitlement Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeNewEntitlementTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Create a Role Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeNewRoleTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Review Templates Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeReviewTemplatesTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Review Campaigns Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeReviewCampaignsTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Guided Setup Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeGuidedSetupTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Access Policies Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeAccessPoliciesTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye RVS Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeRequestVariableSettingsTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Connector Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeNewConnectorsTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Object Category Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeObjectCategoryTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Environment Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeEnvironmentsTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Account Configurations Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeAccountConfigurationsTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Alert Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeAlertsTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Naming Convention Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeNamingConventionTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Entitlement Configurations Creation Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeEntitlementConfigurationsTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkyeHRFeed Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeHRFeedTest"/>
+		</classes>
+	</test>
+	<test name="Running ClearSkye Delete Records Tests" enabled="true">
+		<parameter name="dataFileKey" value="input.data.tests" />
+		<classes>
+			<class name="com.clearskye.test.automation.tests.ClearSkyeDeleteRecordsTest"/>
+		</classes>
+	</test>
+</suite>
